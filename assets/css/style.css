@@ -1,0 +1,73 @@
+body {
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif, Courier, monospace, Times, serif;
+}
+
+.container {
+    background-image: url(../images/background6.jpg);
+    background-size: cover;
+}
+
+.wrapper {
+    margin: 5px 0 10px 15px;
+    height: auto;
+}
+
+#header {
+    background-color: rgb(187, 101, 101);
+    color: white;
+    margin: 10px 0 10px 0;
+    font-size: 100px;
+    font-weight: bolder;
+    padding: 0px 0 0px 0;
+}
+
+#instructions {
+    background-color: beige;
+    color: green;
+    margin: 5px 0 5px 0;
+    font-weight: bold;
+}
+
+#startP {
+    margin-top: 30px;
+}
+
+#lastP {
+    margin-bottom: 60px;
+}
+
+#comp-guess {
+    margin: 5px 0 5px 0;
+    padding: 0 0 80px 15px;
+    background-color: rgb(83, 185, 83);
+    color: indigo;
+    text-align: left;
+    font-size: 30px;
+}
+
+#win-loss {
+    background-color: rgb(67, 220, 247);
+    text-align: center;
+    margin: 5px 0 5px 10px;
+    padding: 10px 0 10px 0;
+}
+
+#user-score {
+    background-color: teal;
+    color: white;
+
+}
+
+#user-guess {
+    background-color: teal;
+    color: white;
+    margin: 5px 0 30px 0;
+    padding: 0 0 80px 15px;
+    text-align: left;
+    font-size: 30px;
+}
+
+
+
+
