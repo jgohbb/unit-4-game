@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif, Courier, monospace, Times, serif;
+    font-family:'Times New Roman', Times, serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif, Courier, monospace, Times, serif;
 }
 
 .container {
@@ -18,8 +18,8 @@ body {
     color: white;
     margin: 10px 0 10px 0;
     font-size: 100px;
-    font-weight: bolder;
-    padding: 0px 0 0px 0;
+    font-weight:bolder;
+    padding: 0px 0 0px 10px;
 }
 
 #instructions {
