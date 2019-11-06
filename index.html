@@ -5,82 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystals Collector</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
     <div class="container">
         <div class="wrapper">
             <div class="row">
-                <div class="col-md-4 stylebolder" id="header">            
+                <div class="col-md-12" id="header">            
                     <h1>Crystals Collector!</h1>
                 </div>    
             </div>
 
             <div class="row">
-                <div class="col-md-6 text-left" id="instructions">
+                <div class="col-md-2">
+                </div>
+
+                <div class="col-md-8 text-left" id="instructions">
                     <p id="startP">You will be given a random number at the start of the game.</p>
                     <p>There are four crystals below. By clicking on a crystals you will add a specific amount of points to your total score.</p>
                     <p>You win the game by matching your total scores to random number, you lose the game if your total score goes above the random number.</p>
                     <p>The value of each crystal is hidden from you until you click on it.</p>
                     <p id="lastP"> Each time when the game starts, the game will change the values of each crystal.</p>            </div>
                 
-                <div class="col-md-6">
+                <div class="col-md-2">
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-md-3" id="comp-guess">
+            <div class="row" id="crytals-iamge">
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-2">
+                    <img class="rubyImage" src="assets/images/ruby.jpg" width=150px height=150px>
+                </div>
+                <div class="col-md-2">
+                    <img class="sapphireImage" src="assets/images/sapphire.jpg" width=150px height=150px>
+                </div> 
+                <div class="col-md-2">
+                    <img class="topazImage" src="assets/images/topaz.jpg" width=150px height=150px>
+                </div> 
+                <div class="col-md-2">
+                    <img class="emeraldImage" src="assets/images/emerald.jpg" width=150px height=150px>
+                </div>
+                <div class="col-md-2">
+                </div>
+            </div>  
+
+            <div class="row" id="scores">
+                <div class="col-md-2" id="comp-guess">
                     <p>39</p>
                 </div>
-
-                <div class="col-md-1" id="win-loss">
+                <div class="col-md-2" id="win-loss">
                     <p>wins</p>
                     <p>loss</p>
                 </div>
-            </div>
-        
-            <div class="row">
-                <div class="col-md-5">
-                    <ul>
-                        <li>red crystals</li>
-                        <li>blue crystals</li>
-                        <li>yellow crystals</li>
-                        <li>green crystals</li>
-                    </ul>
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-4" id="scoreUser">
+                   <p id="user-score">Your total score is:</p>
+                   <p id="user-guess">0</p>
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col-md-3" id="user-score">
-                    <p>Your total score is:</p>
-                </div>
-
-                <div class="col-md-9">
-                </div>
-            </div>            
         
-            <div class="row">
-                <div class="col-md-3" id="user-guess">
-                    <p>0</p>
-                </div>
-
-                <div class="col-md-9">
-                </div>
-            </div>               
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+     
         </div>
 
     </div>
