@@ -3,29 +3,30 @@ body {
     font-family:'Times New Roman', Times, serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif, Courier, monospace, Times, serif;
 }
 
-.container {
+.container-fluid {
     background-image: url(../images/background6.jpg);
     background-size: cover;
 }
 
 .wrapper {
     margin: 5px 15px 10px 15px;
-    height: auto;
+
 }
 
 #header {
-    background-color: rgb(187, 101, 101);
-    color: white;
+    background-image: url(../images/background8.jpg);
     margin: 10px 0 10px 0;
-    font-size: 100px;
-    font-weight:bolder;
     padding: 0px 0 0px 10px;
 }
 
+h1 {
+    font-size: 80px;
+    font-weight:bolder;
+}
+
 #instructions {
-    background-color: beige;
     color: green;
-    margin: 5px 0 5px 0;
+    margin: 0;
     font-weight: bold;
 }
 
@@ -38,35 +39,40 @@ body {
 }
 
 #comp-guess {
-    margin: 5px 0 5px 0;
-    padding: 0 0 80px 15px;
+    margin: 0;
+    padding: 4% 0 80px 15px;
     background-color: rgb(83, 185, 83);
     color: indigo;
-    text-align: left;
-    font-size: 30px;
+    font-size: 80px;
 }
 
-#win-loss {
-    background-color: rgb(67, 220, 247);
+#scores {
     text-align: center;
-    margin: 5px 0 5px 10px;
-    padding: 10px 0 10px 0;
+    margin: 0;
+    padding: 0;
 }
 
-#scoreUser {
-    background-color: teal;
-    color: white;
-    margin: 5px 0 5px 5px;
+#score-guess {
+    background-color: rgb(83, 185, 83);
+    color: indigo;
+    text-align: center;
 }
 
 #user-score {
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 #user-guess {
-    text-align: left;
-    font-size: 30px;
+    font-size: 80px;
 }
+
+#userWin, #userLose {
+    background-color: teal;
+    color: white;
+    margin: 10px 0 0 0;
+}
+
 
 
 
