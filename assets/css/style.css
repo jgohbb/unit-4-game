@@ -9,7 +9,7 @@ body {
 }
 
 .wrapper {
-    margin: 5px 15px 10px 15px;
+    margin: 5px 15px 5px 15px;
 
 }
 
@@ -22,12 +22,17 @@ body {
 h1 {
     font-size: 80px;
     font-weight:bolder;
+    font-weight: bolder;
 }
 
-#instructions {
-    color: green;
-    margin: 0;
-    font-weight: bold;
+#infoP {
+    background-image: url(../images/notequal.jpg);
+    background-size:100% 100%;
+    color:yellow;
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    /*text-shadow: 1px 1px 5px black;*/
 }
 
 #startP {
@@ -47,9 +52,13 @@ h1 {
 }
 
 #scores {
+    background-image: url(../images/background8.jpg);
     text-align: center;
-    margin: 0;
+    margin:0 0 10px 0;
     padding: 0;
+    background-color: teal;
+    color: white;
+    font-size: 18px;
 }
 
 #score-guess {
@@ -63,11 +72,15 @@ h1 {
     font-weight: bold;
 }
 
-#user-guess {
-    font-size: 80px;
+#instructions {
+    margin: 0 0 10px 0;
 }
 
-#userWin, #userLose {
+.crystals-image {
+    border-radius: 50%;
+}
+
+#user-win, #user-lose {
     background-color: teal;
     color: white;
     margin: 10px 0 0 0;
