@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-image: url(../images/background8.jpg);
     font-family:'Times New Roman', Times, serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif, Courier, monospace, Times, serif;
 }
 
@@ -9,8 +9,7 @@ body {
 }
 
 .wrapper {
-    margin: 5px 15px 5px 15px;
-
+    margin: 20px 20px 20px 20px;
 }
 
 #header {
@@ -22,11 +21,45 @@ body {
 h1 {
     font-size: 80px;
     font-weight:bolder;
-    font-weight: bolder;
+}
+
+#scores {
+    background-image: url(../images/background8.jpg);
+    text-align: center;
+    margin:0 0 8px 0;
+    padding: 8px 0 0 0;
+    background-color: teal;
+    color: white;
+    font-size: 30px;
+}
+
+#user-win, #user-lose {
+    background-color: teal;
+    color: white;
+    margin: 10px 0 0 0;
+}
+
+#instructions {
+}
+
+#comp-guess {
+    margin: 0;
+    padding: 2% 0 80px 15px;
+    background-color: rgb(83, 185, 83);
+    color: white;
+    font-size: 80px;
+    background-image: url(../images/background8.jpg);
+}
+
+#number-guess{
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 20px;
 }
 
 #infoP {
-    background-image: url(../images/notequal.jpg);
+    /*background-image: url(../images/notequal.jpg);*/
+    background: transparent;
     background-size:100% 100%;
     color:yellow;
     font-size: 20px;
@@ -43,49 +76,23 @@ h1 {
     margin-bottom: 10px;
 }
 
-#comp-guess {
-    margin: 0;
-    padding: 4% 0 80px 15px;
-    background-color: rgb(83, 185, 83);
-    color: indigo;
-    font-size: 80px;
-}
-
-#scores {
-    background-image: url(../images/background8.jpg);
-    text-align: center;
-    margin:0 0 10px 0;
-    padding: 0;
-    background-color: teal;
-    color: white;
-    font-size: 18px;
-}
-
 #score-guess {
     background-color: rgb(83, 185, 83);
-    color: indigo;
+    color: white;
     text-align: center;
+    padding: 2% 0 80px 15px;
+    background-image: url(../images/background8.jpg);
 }
 
 #user-score {
-    font-size: 30px;
+    font-size: 100px;
     font-weight: bold;
 }
 
-#instructions {
-    margin: 0 0 10px 0;
-}
-
-.crystals-image {
+.image {
+    margin: 5px 0 10px 0;
     border-radius: 50%;
 }
-
-#user-win, #user-lose {
-    background-color: teal;
-    color: white;
-    margin: 10px 0 0 0;
-}
-
 
 
 

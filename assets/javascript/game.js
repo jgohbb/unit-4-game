@@ -13,7 +13,7 @@
 $( document ).ready(function() {
 
     var imageChange = "assets/images/equal.jpg";
-    var randomNum = Math.floor(Math.random()*100+1);
+    var randomNum = Math.floor(Math.random()*110+1);
     
     $("#number-guess").text(randomNum);
     
@@ -30,7 +30,7 @@ $( document ).ready(function() {
     $("#user-lose").text(losses);
     
     function reset() {
-        randomNum = Math.floor(Math.random()*100+1);
+        randomNum = Math.floor(Math.random()*110+1);
         console.log(randomNum);
         $("#number-guess").text(randomNum);
         randGem1 = Math.floor(Math.random()*12+1);
@@ -50,7 +50,7 @@ $( document ).ready(function() {
     }
     
     function loser() {
-        alert("Too bad you lose...Try again!!");
+        alert("Too bad you LOSE...Try again!!");
         losses++;
         $("#user-lose").text(losses);
         document.getElementById("infoP").style.backgroundImage='url(assets/images/notequal.jpg)';
