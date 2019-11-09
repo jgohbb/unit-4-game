@@ -10,7 +10,7 @@
 $( document ).ready(function() {
 
     var imageChange = "assets/images/equal.jpg";
-    var randomNum = Math.floor(Math.random()*110+1);
+    var randomNum = Math.floor(Math.random()*80+30);
     
     $("#number-guess").text(randomNum);
     
@@ -27,7 +27,7 @@ $( document ).ready(function() {
     $("#user-lose").text(losses);
     
     function reset() {
-        randomNum = Math.floor(Math.random()*110+1);
+        randomNum = Math.floor(Math.random()*80+30);
         //console.log(randomNum);//
         $("#number-guess").text(randomNum);
         randGem1 = Math.floor(Math.random()*12+1);
