@@ -1,14 +1,11 @@
-//var computerGuess=0;
-//var userGuess=0;
+// 1.create random generator for computer
+// 2.create radom number generator for each crystals
+// 3.set variables for syntax and link to HTML
+// 4.create reset function restting user total to zero
+// 5.create win/loss functions with alert and link to reset function
+// 6.create event listener click to activate the gem and start counter
+// 7.check and refine elements; possiblity to simplify script further
 
-
-// create random number to guess
-
-//var targetNum = Math.floor(Math.random() * 120);
-//console.log(targetNum);
-//$("#number-guess").text(targetNum);
-
-//create radom number generator for each crystals
 
 $( document ).ready(function() {
 
@@ -31,7 +28,7 @@ $( document ).ready(function() {
     
     function reset() {
         randomNum = Math.floor(Math.random()*110+1);
-        console.log(randomNum);
+        //console.log(randomNum);//
         $("#number-guess").text(randomNum);
         randGem1 = Math.floor(Math.random()*12+1);
         randGem2 = Math.floor(Math.random()*12+1);
@@ -65,7 +62,6 @@ $( document ).ready(function() {
         if (userTotal === randomNum) {
             winner()
         }
-    
         else if (userTotal > randomNum) {
             loser()
         } 
@@ -79,7 +75,6 @@ $( document ).ready(function() {
         if (userTotal === randomNum) {
             winner()
         }
-    
         else if (userTotal > randomNum) {
             loser()
         } 
@@ -93,7 +88,6 @@ $( document ).ready(function() {
         if (userTotal === randomNum) {
             winner()
         }
-    
         else if (userTotal > randomNum) {
             loser()
         } 
@@ -107,7 +101,6 @@ $( document ).ready(function() {
         if (userTotal === randomNum) {
             winner()
         }
-    
         else if (userTotal > randomNum) {
             loser()
         } 
@@ -116,8 +109,8 @@ $( document ).ready(function() {
 });
 
 
+//some test reference for exploration later:
 //var image = "https://upload.wikimedia.org/wikipedia/commons/f/f9/Phoenicopterus_ruber_in_S%C3%A3o_Paulo_Zoo.jpg"
-//
 //var crystal = $("<img>");
 //crystal.attr({
 //    "class": 'crystal',

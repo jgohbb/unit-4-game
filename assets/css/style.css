@@ -16,6 +16,7 @@ body {
     background-image: url(../images/background8.jpg);
     margin: 10px 0 10px 0;
     padding: 0px 0 0px 10px;
+    text-shadow: 5px 1px 5px black;
 }
 
 h1 {
@@ -26,20 +27,28 @@ h1 {
 #scores {
     background-image: url(../images/background8.jpg);
     text-align: center;
-    margin:0 0 8px 0;
-    padding: 8px 0 0 0;
+    margin:0 0 10px 0;
+    padding: 10px 0 0 0;
     background-color: teal;
     color: white;
     font-size: 30px;
+    text-shadow: 5px 5px 5px black;
 }
 
-#user-win, #user-lose {
-    background-color: teal;
+#user-win {
     color: white;
-    margin: 10px 0 0 0;
+    background: green;
+    margin: 15px 0 0 0;
+    font-size: 40px;
+    padding: 5px 25px 5px 25px;
 }
 
-#instructions {
+#user-lose {
+    color: white;
+    background: red;
+    margin: 10px 0 0 0;
+    font-size: 40px;
+    padding: 5px 25px 5px 25px;
 }
 
 #comp-guess {
@@ -55,17 +64,17 @@ h1 {
     font-size: 100px;
     font-weight: bold;
     margin-top: 20px;
+    text-shadow: 5px 1px 5px black; 
 }
 
 #infoP {
-    /*background-image: url(../images/notequal.jpg);*/
-    background: transparent;
+    background-image: url(../images/notequal.jpg);
     background-size:100% 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:yellow;
     font-size: 20px;
     font-weight: bolder;
     text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
-    /*text-shadow: 1px 1px 5px black;*/
 }
 
 #startP {
@@ -77,16 +86,17 @@ h1 {
 }
 
 #score-guess {
-    background-color: rgb(83, 185, 83);
+    background-image: url(../images/background8.jpg);
     color: white;
     text-align: center;
     padding: 2% 0 80px 15px;
-    background-image: url(../images/background8.jpg);
+    text-shadow: 5px 1px 5px black;
 }
 
 #user-score {
     font-size: 100px;
     font-weight: bold;
+    text-shadow: 5px 1px 5px black;
 }
 
 .image {
